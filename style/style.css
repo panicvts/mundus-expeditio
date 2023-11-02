@@ -1,0 +1,152 @@
+/* VEZBE 26.10 / 27.10 */
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-panel{
+    background-color: #123740;
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+.top-panel a{
+    color: #f6f6f6;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.top-panel a:hover{
+    color: #549aab;
+}
+
+.navbar{
+    display: flex;
+    align-items: center; /*vertikalno centriranje*/
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0px 20px;
+}
+
+.navbar .logo{
+    width: 120px;
+}
+
+.nav-menu .nav-item{
+    display: inline;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.nav-menu .nav-item a{
+    text-decoration: none;
+    color: #123740;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.nav-menu .nav-item a:hover {
+    background-color: #549aab;
+}
+
+/* VEZBE 2.11 / 3.11 */
+/* HERO IMAGE */
+
+.hero-image{
+    background-image: url('/img/heroimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image .hero-card{
+    width: 600px;
+    text-align: center;
+    height: 150px;
+}
+
+.hero-image .hero-card a{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+/* CARD HOLDER & CARD */
+
+.card-holder{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-holder .card{
+    width: 400px;
+    margin: 0px 20px;
+    height: 600px;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, .2);
+    border-radius: 25px;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.card h1{
+    text-align: center;
+}
+
+.card a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: block;
+    width: 150px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.travel-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.travel-info p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.travel-info p:nth-child(1){
+    background-color: #549aab;
+    color: #123740;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.travel-info p:nth-child(2){
+    color: #06A94D;
+    font-size: 25px;
+}
