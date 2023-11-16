@@ -11,7 +11,6 @@ html, body{
 
 .top-panel{
     background-color: #123740;
-    border: 1px solid black;
     padding: 7px;
     text-align: center;
 }
@@ -30,7 +29,6 @@ html, body{
     display: flex;
     align-items: center; /*vertikalno centriranje*/
     justify-content: space-between;
-    border: 1px solid black;
     padding: 0px 20px;
 }
 
@@ -117,7 +115,6 @@ html, body{
 
 .card a{
     text-decoration: none;
-    border: 1px solid black;
     color: black;
     padding: 10px 15px;
     border-radius: 25px;
@@ -149,4 +146,66 @@ html, body{
 .travel-info p:nth-child(2){
     color: #06A94D;
     font-size: 25px;
+}
+
+/* 10/11/2023 */
+
+.button-row{
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-row a{
+    background-color: #F8CE11;
+    padding: 25px 40px;
+    font-size: 30px;
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.country-search{
+    height: 100vh;
+}
+
+.country-search h1{
+    text-align: center;
+}
+
+.country-card-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.country-search .card-link{
+    height: 250px;
+    width: 400px;
+    text-decoration: none;
+    margin: 25px;
+    color: black;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, .2);
+}
+
+.card-link:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flag-holder{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+.flag-holder img{
+    width: 50px;
 }
