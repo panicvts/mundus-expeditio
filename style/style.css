@@ -60,7 +60,7 @@ html, body{
 /* HERO IMAGE */
 
 .hero-image{
-    background-image: url('/img/heroimage.jpg');
+    background-image: url('../img/heroimage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
@@ -198,6 +198,7 @@ html, body{
 .card-link:hover{
     background-repeat: no-repeat;
     background-size: cover;
+    color: #5D3FD3;
 }
 
 .flag-holder{
