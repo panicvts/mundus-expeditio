@@ -210,3 +210,81 @@ html, body{
 .flag-holder img{
     width: 50px;
 }
+
+/* KONTAKT STRANICA */
+
+.contact-form{
+    width: 1000px;
+    height: 550px;
+    margin: 100px auto;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-left, .form-right{
+    width: 50%;
+    height: 100%;
+}
+
+.form-left h3{ text-align: center;}
+
+.contact-icons{
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-icons i{
+    margin: 0px 15px;
+}
+
+.input-fields{
+    width: 300px;
+    margin: 15px auto;
+}
+
+.input-fields input{
+    width: 280px;
+    padding: 10px;
+    border: 2px solid #123740;
+    border-radius: 10px;
+}
+
+.input-fields p{
+    margin: 0;
+}
+
+.input-fields textarea{
+    width: 100%;
+    height: 120px;
+    border: 2px solid #123740;
+    border-radius: 10px;
+}
+
+.submit-btn{
+    margin: auto;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #123740;
+    border: 2px solid #123740;
+    background-color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.submit-btn:hover{
+    background-color: skyblue;
+}
+
+.form-right{
+    background-image: url("../img/most.jpg");
+    background-size: cover;
+}
