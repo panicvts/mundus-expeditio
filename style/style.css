@@ -288,3 +288,185 @@ html, body{
     background-image: url("../img/most.jpg");
     background-size: cover;
 }
+
+/* Footer */
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 220px;
+    background-color: #111111;
+}
+
+.footer-social-icon{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-social-icon i{
+    font-size: 30px;
+    margin: 0px 15px;
+    color: white;
+}
+
+.footer-navbar ul{
+    text-align: center;
+}
+
+.footer-navbar ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+.footer-navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer img{
+    width: 100px;
+    position: absolute;
+
+    /* ANIMACIJA */
+
+    animation-name: plane; /* Ime animacije */
+    animation-duration: 3s; /* Trajanje */
+    /* animation-direction: alternate; - Animacija se vraca nazad */
+    animation-iteration-count: infinite; /* Broj ponavljanja */
+    animation-timing-function: linear;
+
+    /* 
+        Takodje animacija se moze napisati i u jednoj liniji:
+
+        animation: plane 3s infinite linear;
+    */
+}
+
+@keyframes plane {
+    from{
+        left: 0px;
+    }
+
+    to{
+        left: 100%;
+    }
+
+    
+    /* Takodje kljucne tacke promene animacije se mogu pisati i u procentima:
+    
+    0%{  }
+    50%{  }
+    100%{  }
+    */
+}
+
+/* RESPONSIVNOST - MOBILNI TELEFON */
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .top-panel a{
+        font-size: 20px;
+    }
+
+    .navbar{
+        display: block;
+        padding: 0px;
+    }
+    
+    .nav-menu{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-logo img{
+        display: block;
+        margin: auto;
+    }
+
+    .nav-menu .nav-item{
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .nav-menu .nav-item a{
+        padding: 5px;
+    }
+
+    .hero-image{
+        height: 30vh;
+    }
+
+    .hero-image .hero-card{
+        padding: 0px 10px;
+    }
+
+    .button-row{
+        height: 60px;
+    }
+
+    .button-row a{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .country-search h1{
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    .card-holder{
+        display: block;
+        height: auto;
+        padding: 0px 5px;
+    }
+
+    .card-holder .card{
+        width: 300px;
+        height: auto;
+    }
+
+    .card-holder .card h1{
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    .card-holder .card a{
+        margin: 5px auto;
+        padding: 5px;
+    }
+
+    .card-holder .card .travel-info p{
+        margin: 7px 0px;
+    }
+
+    .flag-holder{
+        width: 50px;
+    }
+
+    .country-name-holder{
+        margin-top: 50px;
+    }
+
+    /* KONTAKT STRANICA */
+
+    .contact-form{
+        width: 100%;
+        margin: 10px 0px;
+        background-image: url('../img/most.jpg');
+        background-size: cover;
+    }
+
+    .form-right{
+        display: none;
+    }
+
+    .form-left{
+        width: 100%;
+    }
+
+    .input-fields p{
+        color: white;
+    }
+}
