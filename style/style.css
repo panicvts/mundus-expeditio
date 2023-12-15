@@ -470,3 +470,82 @@ html, body{
         color: white;
     }
 }
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .navbar, .nav-menu{
+        padding: 0px;
+    }
+
+    .navbar .nav-menu .nav-item{
+        margin: 5px;
+    }
+
+    .navbar .nav-menu .nav-item a{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .navbar-logo .logo{
+        width: 70px;
+    }
+
+    .hero-image{
+        height: 50vh;
+    }
+
+    .card-holder{
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    .card-holder .card{
+        height: auto;
+        margin: 0px 7px;
+    }
+
+    .card-holder .card img{
+        height: 200px;
+    }
+
+    .button-row{
+        height: 100px;
+    }
+
+    .button-row a{
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    .country-card-holder .card-link{
+        width: 350px;
+        margin: 10px;
+    }
+
+    .flag-holder{
+        width: 100px;
+    }
+
+    .contact-form{
+        display: block;
+        margin: 0px auto;
+        width: 70%;
+        border-radius: 25px;
+        background-image: url('../img/most.jpg');
+        background-size: cover;
+    }
+
+    .form-left{
+        width: 100%;
+    }
+
+    .form-right{
+        display: none;
+    }
+
+    .input-fields p{
+        color: white;
+    }
+
+
+
+}
